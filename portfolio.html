@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        @media (max-width: 350px) {
+            #main-content{
+              display: block;
+            }
+        }
+        @media (min-width: 350px) and (max-width:500px) {
+            #main-content{
+                display: block;
+            }
+        }
+        @media (min-width: 500px) and (max-width:700px) {
+            #main-content{
+                display: block;
+            }
+        }
+        @media (min-width: 700px) and (max-width:900px) {
+            #main-content{
+                display: block;
+            }
+        }
+        @media (max-width: 350px) {
+            #suva{
+                display: block;
+            }
+        }
+        @media (min-width: 350px) and (max-width:600px) {
+            #suva{
+                display: block;
+            }
+        }
+        @media (min-width: 600px) and (max-width:800px) {
+            #suva{
+                display: block;
+            }
+        }
+        @media (min-width: 800px) and (max-width:1000px) {
+            #suva{
+                display: block;
+            }
+        }
+        span:before{
+            content: '';
+            animation: animate infinite 8s;
+        }
+        @keyframes animate{
+            0%{
+                content: 'Freelancer';
+            }
+            20%{
+                content: 'Web Developer';
+            }
+            40%{
+                content: 'Android App Developer';
+            }
+            60%{
+                content: 'Data Entry Specialist';
+            }
+            80%{
+                content: 'Blogger';
+            }
+          100%{
+                content: 'Machine Learning Enthusiastic';
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="aside">
+            <div class="logo">
+                <a href="#" id="suvadeep">Suvadeep</a>
+            </div>
+            <div class="nav-toggler">
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>About Us</a></li>
+                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i>portfolio</a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i>Blog</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div id="main-content">
+            <section class="home section">
+                <div class="container">
+                    <div class="intro">
+                        <img src="C:\Users\SUVADEEP\Desktop\portfolio\WhatsApp Image 2020-06-15 at 1.24.13 AM.jpeg"
+                            alt="photo" class="shadow-dark">
+                        <h1>Suvadeep Maity</h1>
+                        <h2 id="suva">I Am A  <span></span></h2>
+                        <div class="social-link">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
